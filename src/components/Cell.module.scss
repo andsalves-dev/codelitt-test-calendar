@@ -1,0 +1,40 @@
+.cellContent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0 0.125rem;
+  box-sizing: border-box;
+
+  &.selected {
+    border: 1px solid #019899;
+  }
+
+  .day {
+    margin-bottom: 0.5rem;
+
+    &.isToday {
+      font-weight: bold;
+    }
+  }
+
+  .reminders {
+    list-style: none;
+    margin: 0;
+    max-height: 7.5rem;
+    overflow: auto;
+    padding: 0;
+  }
+
+  .reminder {
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin-bottom: 0.125rem;
+    padding: 0.125rem 0.25rem;
+  }
+}
+
+.emptyCell {
+  background: #CCCCCC;
+}

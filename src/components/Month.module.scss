@@ -1,0 +1,23 @@
+.container {
+  display: table;
+  margin: 1rem auto 0;
+}
+
+.table {
+  border-collapse: collapse;
+
+  &, td, th {
+    border: 0.125rem solid black;
+  }
+
+  th {
+    background: #EAEAEA;
+  }
+
+  td {
+    height: 7.5rem;
+    padding: 0;
+    vertical-align: top;
+    width: 7.5rem;
+  }
+}

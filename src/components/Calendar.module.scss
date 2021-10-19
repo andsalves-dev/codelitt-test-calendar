@@ -1,0 +1,48 @@
+.calendar {
+  width: 52.5rem;
+  margin: 1.5rem auto 0;
+  position: relative;
+  display: block;
+}
+
+.heading {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    flex: 1;
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: #AAA;
+    cursor: pointer;
+
+    &:hover {
+      background: #F5F5F5;
+    }
+  }
+
+  .todayButton {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  .monthControls {
+    button {
+      border-radius: 50%;
+      font-size: 2rem;
+      height: 2rem;
+      margin-left: 0.5rem;
+      width: 2rem;
+
+      span {
+        display: block;
+        margin-top: -0.3125rem;
+      }
+    }
+  }
+}
